@@ -1,0 +1,63 @@
+/*
+
+Play with margin and padding, colors and width to see the effects on the page.
+
+*/
+
+body  {
+  margin:0;
+  padding:0;
+  background-color: lightblue
+}
+
+p {
+  margin:0;
+  text-align:center;
+  
+}
+
+img {
+  margin:auto;
+  width:50%;
+  display:block;
+  border-radius:65px;
+}
+
+audio {
+  display:block;
+  margin:auto;
+  width:100%;
+}
+
+/*
+Notice how we reference "classes" in our html page
+*/
+
+#header {
+  background-color:darkslategrey;
+  margin:auto;
+  width:55%;
+  height:45px;
+}
+
+#content_1 {
+  background-color:white;
+  margin:auto;
+  width:55%;
+   height:0 px;
+    display: flex;
+}
+
+#content_2 {
+  background-color:lightgrey;
+  margin:auto;
+  width:55%;
+   height:0 px;
+    display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
